@@ -23,7 +23,7 @@ let API = async () => {
 
 let navBtn = document.getElementById("nav-btn");
 navBtn.addEventListener("click", () => {
-  cards.innerHTML = `<h1 class='load'>Getting Users....</h1>`;
+  cards.innerHTML = `<h1 class='load p-3'>Getting Users....</h1>`;
   setTimeout(() => {
     API();
   }, 3000);
